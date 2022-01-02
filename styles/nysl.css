@@ -45,3 +45,18 @@
   height: 30em;
   border: 3px solid green;
 }
+
+.wrapper {
+  position: relative;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  float: right;
+  position: absolute;
+  right: 80px;
+  top: -35px;
+  z-index: 1000;
+}
