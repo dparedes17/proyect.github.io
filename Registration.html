@@ -42,7 +42,7 @@
                 <br>
                 <label for="birth_date">Birth Date:</label>
                 <br>
-                <input class="input-form" type="text" id="birth_date" name="birth_date">
+                <input type="date" id="birth_date" name="birth_date">
                 <br>
                 <br>
             </div>
@@ -54,30 +54,35 @@
                 <input class="input-form" type="text" id="zip_code" name="zip_code"><br>
                 <br>
                 <label for="gender">Gender:</label>
-                <label><input type="checkbox" id="mas" value="M">Masculino</label>
-                <label><input type="checkbox" id="fem" value="F">Femenino</label>
+                <label><input type="checkbox" id="mas" value="M">Male</label>
+                <label><input type="checkbox" id="fem" value="F">Female</label>
                 <br>
                 <br>
                 <label for="grade">Grade:</label>
                 <br>
-                <input type="checkbox" id="0" value="pre_school">Pre-School</input>
-                <input type="checkbox" id="1" value="1st">1st</input>
-                <input type="checkbox" id="2" value="2st">2st</input>
-                <input type="checkbox" id="3" value="3st">3st</input>
-                <input type="checkbox" id="4" value="4st">4st</input>
-                <input type="checkbox" id="5" value="5st">5st</input>
-
+                <select name="OS">
+                    <option selected value="0"> Choose one </option>
+                    <option value="1">Pre-School</option>
+                    <option value="1">1st</option>
+                    <option value="2">2st</option>
+                    <option value="3">3st</option>
+                    <option value="4">4st</option>
+                    <option value="11">5st</option>
+                </select>
             </div>
         </div>
         <div class="form-2">
             <h1>Which elementary school do you live near?</h1>
             <h2>Closest School:</h2>
-            <input type="checkbox" id="0" value="0">AJ Katzenmaier</input>
-            <input type="checkbox" id="1" value="1">Marjorie P Hart</input>
-            <input type="checkbox" id="2" value="2">Greenbay</input>
-            <input type="checkbox" id="3" value="3">Howard A Yeager</input>
-            <input type="checkbox" id="4" value="4">North Elementary</input>
-            <input type="checkbox" id="5" value="5">South Elementary</input>
+            <select name="OS">
+                <option selected value="0"> Choose one </option>
+                <option value="1">AJ Katzenmaier</option>
+                <option value="2">Marjorie P Hart</option>
+                <option value="3">Greenbay</option>
+                <option value="4">Howard A Yeager</option>
+                <option value="5">North Elementary</option>
+                <option value="6">South Elementary</option>
+            </select>
             <br>
             <h2>What position(s) do you normally play? (check all that apply)</h2>
             <input type="checkbox" id="0" value="0">Forward</input>
@@ -86,27 +91,38 @@
             <input type="checkbox" id="3" value="3">Goalkeeper</input>
             <br>
             <h2>Uniform Size:</h2>
-            <input type="checkbox" id="0" value="0">Youth Smal</input>
-            <input type="checkbox" id="1" value="1">Youth Medium</input>
-            <input type="checkbox" id="2" value="2">Youth Large</input>
-            <input type="checkbox" id="3" value="3">Small</input>
-            <input type="checkbox" id="4" value="4">Medium</input>
-            <input type="checkbox" id="5" value="5">Large</input>
-            <input type="checkbox" id="6" value="7">Extra-Large</input>
+            <select name="OS">
+                <option selected value="0"> Choose one </option>
+                <option value="1">Youth Small </option>
+                <option value="2">Youth Medium</option>
+                <option value="3">Youth Large</option>
+                <option value="4">Small</option>
+                <option value="11">Medium</option>
+                <option value="12">Large</option>
+                <option value="12">Extra-Large</option>
+            </select>
             <br>
             <h2>Permission to Play</h2>
-            <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the
+            <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all
+                the
                 rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury
                 associated with soccer and in consideration for the “League” accepting the registrant for its soccer
-                programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their employees
-                and associated personnel and volunteers,including the facilities used for practices and games, against
+                programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their
+                employees
+                and associated personnel and volunteers,including the facilities used for practices and games,
+                against
                 any claim by or on behalf of the registrant as a result of the registrant’s participation in the
-                programand/orbeing transported to or from NYSL sponsored activities,which transportation</p>
+                programand/orbeing transported to or from NYSL sponsored activities,which transportation.</p>
 
-            <p>By signing below, I herebyagree andauthorizethe above.In addition, by signing below, Ialso acknowledge
+            <p>By signing below, I herebyagree andauthorizethe above.In addition, by signing below, Ialso
+                acknowledge
                 that I have read the cancellation policy and agree to its terms.</p>
-            <p>Parent/GuardianSignature: ___________________________________ Date:___________________</p>
-
+            <label for="Parent/GuardianSignature">Parent/GuardianSignature:</label>
+            <input class="input-form" type="text" id="Parent/GuardianSignature" name="Parent/GuardianSignature"> <label
+                for="date">Date:</label>
+            <input type="date" id="date" name="date">
+            <br>
+            <br>
             <input class="input-form" type="submit" value="Submit"></input>
         </div>
     </form>

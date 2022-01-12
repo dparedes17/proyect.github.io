@@ -43,7 +43,7 @@ html {
   left: auto;
   width: 30%;
   height: 50em;
-  border: 3px solid red;
+  border: 3px solid white;
 }
 
 .right {
@@ -160,18 +160,18 @@ td {
 }
 .space-selected {
   position: absolute;
-  margin-top: 550px;
+  margin-top: 1150px;
   left: 32%;
 }
 .right-form {
   position: absolute;
-  right: 0;
-  width: 38%;
+  right: 10%;
+  width: 50%;
 }
 
 .left-form {
   position: absolute;
-  width: 38%;
+  width: 50%;
   left: 10%;
 }
 
@@ -187,12 +187,21 @@ td {
 }
 
 .input-form {
-  width: 450px;
+  width: 250px;
+  position: center;
 }
 
 .form-2 {
-  width: 100%;
-  padding-left: 200px;
-  padding-right: 200px;
+  width: 48%;
+  padding-left: 100px;
+  padding-right: 100px;
   padding-bottom: 200px;
+  text-align: justify;
+  position: absolute;
+  left: 20%;
+}
+.location-list {
+  position: absolute;
+  margin-top: 550px;
+  left: 32%;
 }
